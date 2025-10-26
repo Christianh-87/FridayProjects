@@ -1,0 +1,10 @@
+# Ignore API keys and credentials
+CsAPIkey.py
+
+# Ignore Python cache folders
+__pycache__/
+*.pyc
+
+# Ignore virtual environments (if any)
+venv/
+.env/
