@@ -1,0 +1,331 @@
+id,review_text,sentiment_analysis,sentiment_label,aspects
+1,"This is not a product, it's an experience. Watching 3D movies is like having an IMAX theater in my living room. I'll never watch a movie on a regular TV again.","Positive
+Reason: The review is highly enthusiastic, praising the immersive experience and expressing strong preference over regular TVs.",Positive,"- Overall experience: Positive (described as an “experience,” very impressed)
+- 3D movie watching: Positive (like having IMAX at home)
+- Immersion/virtual screen: Positive (cinema-scale feel in the living room)
+- TV replacement: Positive (won’t watch on a regular TV again)"
+2,"The build quality is just... Apple. Premium glass, metal, and fabric. It feels like a $3,500 device. You get what you pay for.","Positive
+Reason: The review praises the premium build quality and suggests the high price is justified.",Positive,"- Build quality: Positive (premium Apple-level construction)
+- Materials: Positive (glass, metal, and fabric feel premium)
+- Value for price: Positive (feels worth $3,500; you get what you pay for)"
+3,"I'm a huge Apple fan, but I'm underwhelmed. It does a few 'wow' things, but it doesn't do anything *better* than my Mac and iPhone, except for 3D movies. Not worth the price.","Negative
+Reason: Despite a few wow moments, the reviewer feels underwhelmed, finds no real advantages over existing devices (aside from 3D movies), and concludes it’s not worth the price.",Negative,"- Overall experience: Negative (underwhelmed)
+- Wow factor/novelty: Neutral (a few “wow” moments)
+- Capability vs Mac/iPhone: Negative (doesn’t do anything better)
+- 3D movies: Positive (notably better experience)
+- Price/Value: Negative (not worth the price)"
+4,"Incredible hardware held back by first-gen software. visionOS is beautiful but feels a bit empty. I'm betting on its future potential, but it's not all there yet.","Neutral
+Reason: The review praises the hardware and design but criticizes the current software and completeness, expressing mixed feelings and a wait-and-see outlook.",Neutral,"- Hardware: Positive (incredible hardware)
+- Software: Negative (held back by first-gen software)
+- visionOS design: Positive (beautiful)
+- visionOS features/content: Negative (feels a bit empty)
+- Overall maturity: Negative (not all there yet)
+- Future potential: Positive (promising potential)"
+5,"It's a lonely, heavy, expensive, and useless device. It does not replace my computer. It does not replace my TV. It just gathers dust. I'm embarrassed I bought it.","Negative
+The reviewer expresses strong dissatisfaction, calling the device heavy, expensive, and useless, saying it fails to replace their computer/TV and that they regret buying it.",Negative,"- Weight/Comfort: Negative (heavy)
+- Price: Negative (expensive)
+- Utility: Negative (useless)
+- Computer replacement: Negative (doesn’t replace my computer)
+- TV replacement: Negative (doesn’t replace my TV)
+- Social experience: Negative (lonely)
+- Usage/Engagement: Negative (gathers dust)
+- Purchase satisfaction: Negative (embarrassed I bought it)"
+6,"It's expensive, yes. But it's the single most impressive piece of technology I've ever owned. It makes me excited about the future.",,,"- Price: Negative (expensive)
+- Technology/Innovation: Positive (most impressive tech owned)
+- Future potential: Positive (excited about the future)"
+7,"I really wanted to love this, but it's just too isolating. When I'm wearing it, I'm cut off from my family. The EyeSight screen is a gimmick that doesn't work. They just see a blurry image of my eyes.",,,"- Social interaction/presence: Negative (too isolating; cut off from family)
+- EyeSight screen: Negative (gimmick; shows others a blurry image of your eyes)"
+8,"I bought it for work, but the Mac Virtual Display is too limiting with one screen. And any app that isn't native to visionOS is just a floating 2D panel. It's not the revolution I was sold.",,,"- Mac Virtual Display: Negative (limited to one screen)
+- Non-native app experience: Negative (apps run as floating 2D panels)
+- Productivity/work use: Negative (doesn’t meet work needs)
+- Innovation/expectations: Negative (not the revolution promised)"
+9,"The M5 is faster, sure, but it's also *heavier* than the M2 according to the specs. The new strap just manages that weight better. It's still a brick on your face.",,,"- Performance/Speed: Positive (M5 is faster than M2)
+- Weight: Negative (heavier than M2; feels heavy)
+- Strap/Headband: Positive (manages/distributes weight better)
+- Comfort/Ergonomics: Negative (still feels like a brick on the face)"
+10,"I'm a designer, and being able to see my 3D models in my actual office space is a professional game-changer. This device has already paid for itself in workflow improvements.",,,"- Spatial visualization/AR: Positive (can view 3D models in real space)
+- Workflow/Productivity: Positive (significant workflow improvements)
+- Value/ROI: Positive (has “paid for itself” through gains)"
+11,"I was skeptical, but the immersive videos are mind-blowing. The wildlife documentary made me feel like I was actually there. I've never experienced media like this.",,,"- Immersive videos: Positive (mind-blowing)
+- Sense of presence: Positive (felt like actually there)
+- Media experience: Positive (unlike anything experienced before)"
+12,"The passthrough is in a league of its own. I can comfortably walk around my house, grab a drink, and talk to my family without taking it off. It's not perfect, but it's miles ahead of anything else.",,,"- Passthrough quality: Positive (best-in-class; miles ahead despite minor flaws)
+- Comfort/wearability: Positive (comfortable to keep on while moving)
+- Mobility/spatial awareness: Positive (can walk around the house safely)
+- Social interaction: Positive (can talk to family without removing it)
+- Convenience: Positive (no need to take it off for quick tasks)"
+13,"Typing in the air is slow and awkward. It works for a quick search, but for any real work, you absolutely need a Bluetooth keyboard. Same with the mouse.",,,"- Air typing: Negative (slow and awkward)
+- Quick searches: Positive (works fine for brief tasks)
+- Bluetooth keyboard: Negative (required for real work)
+- Mouse: Negative (also needed for real work)"
+14,The M5 version is what the original should have been. The new Dual Knit Band is a complete game-changer. I can finally wear this for hours. Absolutely stunning.,,,"- M5 version/update: Positive (what the original should have been)
+- Dual Knit Band: Positive (complete game-changer)
+- Comfort/wearability: Positive (can wear for hours)
+- Overall experience: Positive (absolutely stunning)"
+15,"I felt claustrophobic. The FOV is narrow, and the headset presses on your cheeks and forehead. I couldn't wait to take it off.",,,"- Field of view (FOV): Negative (narrow)
+- Comfort/Fit: Negative (presses on cheeks and forehead)
+- Wearability/Session length: Negative (couldn’t wait to take it off)
+- Overall experience: Negative (felt claustrophobic)"
+16,Spatial photos and videos are the killer app no one is talking about. Seeing my kids' birthday party in 3D like I'm standing there again is emotional and priceless. It's a true time machine.,,,"- Spatial photos and videos: Positive (described as the “killer app”)
+- 3D immersion/presence: Positive (feels like standing there again)
+- Emotional impact: Positive (moving and meaningful)
+- Memory preservation: Positive (a “true time machine” for reliving moments)"
+17,The Cinema Environment is my favorite feature. But I wish I could invite a friend to watch with me in a spatial call. It's a lonely experience right now.,,,"- Cinema Environment: Positive (favorite feature)
+- Spatial call co-watching: Negative (can’t invite a friend to watch together)
+- Social experience: Negative (feels lonely)"
+18,"I bought the M5 model for the performance boost. Apps load instantly, and the rendering is noticeably smoother than the M2 I tried. This is the future of computing, and it's finally fast enough to be usable.",,,"- Performance: Positive (significant boost)
+- App launch speed: Positive (apps load instantly)
+- Rendering smoothness: Positive (noticeably smoother)
+- Usability: Positive (finally fast enough to use)
+- Model comparison (M5 vs M2): Positive (better than M2)
+- Future potential: Positive (feels like the future of computing)"
+19,"The M5 model is a fantastic upgrade. The new head strap is much better, but let's be honest—it's still a heavy computer on your face. I can go 2 hours, but not all day.",,,"- Upgrade (M5 model): Positive (fantastic upgrade)
+- Head strap: Positive (much better)
+- Comfort/Weight: Negative (still a heavy computer on your face)
+- Usage duration: Negative (can go ~2 hours, not all day)"
+20,"I've never been more disappointed in an Apple product. It's heavy, uncomfortable, and the software is a beta. I felt like an unpaid tester for a product that shouldn't have been released. I got my refund.",,,"- Comfort: Negative (uncomfortable to wear)
+- Weight: Negative (heavy)
+- Software quality: Negative (feels like beta)
+- Product readiness: Negative (shouldn't have been released)
+- Overall satisfaction: Negative (most disappointed; ended up returning it)"
+21,"I keep trying to make it part of my life, but it's a solution in search of a problem. My MacBook and iPad are just faster and easier for 99% of tasks.",,,"- Usefulness/Practicality: Negative (feels like a solution in search of a problem)
+- Productivity for everyday tasks: Negative (worse for 99% of tasks)
+- Ease of use: Negative (MacBook/iPad are easier)
+- Integration into daily life: Negative (hard to make it part of routine)"
+22,"I'm a gamer, and this is... not a gaming device. Apple Arcade is cute, but it's not a 'killer app.' I'm waiting for real, AAA immersive games.",,,"- Gaming capability: Negative (not a gaming device)
+- Game library/content: Negative (lacks real AAA immersive games)
+- Apple Arcade: Negative (cute but not a killer app)"
+23,"The battery. The cord. What a mess. I'm either stuck to a wall or I have this stupid, heavy battery pack in my pocket with a wire dangling. It's the most 'un-Apple' design ever.",,,"- Battery: Negative (external pack is heavy and awkward)
+- Cord/Cable: Negative (wire dangling, feels tethered)
+- Mobility/Freedom: Negative (stuck to a wall or tethered to a pack)
+- Design/Aesthetics: Negative (“most ‘un-Apple’ design”)"
+24,"I'm sending it back. The eye tracking is 'magic' until you're in a room with complex lighting, and then it just... doesn't work. I found myself pinching at the air like an idiot.",,,"- Eye tracking (when it works): Positive (feels like “magic”)
+- Eye tracking reliability in complex lighting: Negative (doesn’t work in complex lighting)
+- Gesture/pinch controls: Negative (left pinching at the air without effect)
+- Overall experience: Negative (sending it back)"
+25,"My new favorite way to multitask. I can have the basketball game on a giant screen, my email in the corner, and a Safari window open, all while I'm cooking. It's incredible.",,,"- Multitasking: Positive (new favorite way to multitask)
+- Virtual display size: Positive (basketball game on a giant screen)
+- Window layout/management: Positive (email in the corner and Safari window open)
+- Real-world integration: Positive (usable while cooking)"
+26,"I'm a VR enthusiast. This has a worse field of view, no tactile controllers, and no games compared to headsets that cost 1/7th the price. The display is nice, but that's it. It's a terrible value.",,,"- Field of view: Negative (worse than cheaper headsets)
+- Controllers: Negative (no tactile controllers)
+- Game library: Negative (no games)
+- Display: Positive (nice)
+- Price: Negative (far more expensive than alternatives)
+- Value: Negative (terrible value)"
+27,"I had the M2 and sold it. It was just too heavy, and I got neck pain. I'm hearing the M5 is better, but I'm not willing to spend another $3,500 to find out.",,,"- Weight: Negative (too heavy)
+- Comfort/Ergonomics: Negative (caused neck pain)
+- Price: Negative (not willing to spend $3,500)
+- Future model (M5): Neutral (heard it's better, unverified)"
+28,"The 'magic' is just marketing. The passthrough is blurry, the Personas are terrifying, and the weight is a serious health hazard for your neck. This is the biggest flop Apple has ever produced.",,,"- Passthrough: Negative (blurry)
+- Personas: Negative (terrifying avatars)
+- Weight: Negative (serious neck strain/health hazard)
+- Marketing/Claims: Negative (""magic"" is just marketing hype)
+- Overall: Negative (called the biggest flop)"
+29,"The passthrough is... fine. But it's not 'reality.' It feels like you're watching your life through a high-def camera, which is exactly what it is. It's disorienting.",,,"- Passthrough realism: Negative (not reality; feels like a camera feed)
+- Passthrough clarity: Positive (high-def look)
+- User comfort/orientation: Negative (disorienting)"
+30,"A complete and total rip-off. It's a $500 VR headset with an Apple logo and a $3,000 markup. It does nothing better than its competition and a lot of things worse. Avoid.",,,"- Price: Negative (claims a $3,000 markup)
+- Value for money: Negative (called a rip-off)
+- Performance/Features: Negative (does nothing better; many things worse)
+- Differentiation vs competitors: Negative (no advantage over rivals)"
+31,"I love it, but the battery life is a joke. Two hours is just not enough. I'm constantly tethered to the wall with the power adapter, which kind of defeats the 'spatial' freedom.",,,"- Overall satisfaction: Positive (user says ""I love it"")
+- Battery life: Negative (two hours is not enough)
+- Charging/power adapter: Negative (constantly tethered to the wall)
+- Spatial freedom/mobility: Negative (tethering defeats the sense of freedom)"
+32,"It's a 'Gen 1' product with a 'Gen 3' price. It's heavy, the battery is short, and there's no killer app. I'll be back in a few years when they make 'Apple Vision Air.'",,,"- Price: Negative (Gen 3 price; too expensive)
+- Weight/Comfort: Negative (heavy)
+- Battery life: Negative (short)
+- App ecosystem: Negative (no killer app)
+- Maturity/Polish: Negative (feels like Gen 1)"
+33,I'm torn. The technology is 10/10. The practicality is 2/10. It sits on my desk more than it sits on my face. The novelty wore off fast.,,,"- Technology/Performance: Positive (10/10 tech)
+- Practicality/Everyday use: Negative (2/10 practicality)
+- Usage frequency: Negative (sits on desk more than on face)
+- Long-term appeal/Novelty: Negative (novelty wore off fast)"
+34,"The spatial audio is magical. It sounds like the audio is coming from the windows in front of me, not from the headset. And when I turn my head, the sound stays put. So immersive.",,,"- Spatial audio: Positive (described as “magical”)
+- Sound localization: Positive (audio feels like it comes from the windows in front)
+- Head-tracked audio anchoring: Positive (sound stays put when turning head)
+- Immersion: Positive (explicitly called “so immersive”)"
+35,"This thing is 90% magic, 10% frustration. The movie-watching experience is 5/5, but the app library is still 3/5. It needs more compelling, native apps.",,,"- Overall experience: Positive (described as 90% magic)
+- Movie-watching: Positive (rated 5/5)
+- App library/ecosystem: Negative (3/5; needs more compelling native apps)"
+36,"This is not a productivity device. It's a media consumption device. And as a media device, it has no Netflix, no YouTube, and no native Spotify. It's a $3,500 failure.",,,"- Productivity: Negative (not a productivity device)
+- Media consumption suitability: Negative (missing major streaming apps)
+- App ecosystem/streaming services: Negative (no Netflix, no YouTube, no native Spotify)
+- Price/Value: Negative ($3,500 and called a failure)"
+37,"The lens glare is so bad, it's distracting. In any high-contrast scene (like, you know, 90% of movies), there are god rays and reflections all over the place. It completely ruins the immersion.",,,"- Lens glare: Negative (distracting and severe)
+- Reflections/god rays: Negative (visible all over the image)
+- High-contrast scene handling: Negative (artifacts appear in bright/dark mixes)
+- Movie watching experience: Negative (most movies show these artifacts)
+- Immersion: Negative (completely ruined by glare and reflections)"
+38,"The device is a marvel, but the lack of a native YouTube app is baffling and annoying. Using the web version is a clumsy workaround.",,,"- Overall impression: Positive (called “a marvel”)
+- Native YouTube app availability: Negative (missing/baffling)
+- Web YouTube experience: Negative (clumsy workaround)"
+39,"I bought the original M2 version used for a great price. For $2,000, it's a 5-star product. For $3,500? I'm not so sure. The value proposition is tough.",,,"- Price at $2,000 (used): Positive (great price; feels 5-star)
+- Price at $3,500 (MSRP): Negative (not sure it’s worth it)
+- Value proposition: Negative (tough to justify at full price)"
+40,The 'Persona' for FaceTime is still... weird. My colleagues said it's impressive but deep in the 'uncanny valley.' I'd rather just take the headset off.,,,"- Persona (FaceTime avatar): Negative (impressive but uncanny valley/weird)
+- FaceTime calling experience: Negative (would rather take the headset off)"
+41,"I'm a developer, and I'm disappointed. The tools are limited, and the store isn't driving any real revenue. It feels like Apple has already put this on the back burner. I'm worried about its future.",,,"- Developer tools: Negative (limited tools)
+- App Store revenue: Negative (store not driving revenue)
+- Apple support/commitment: Negative (feels put on the back burner)
+- Future prospects: Negative (worried about its future)"
+42,"I was blown away by the eye tracking. It literally feels like magic, just looking at something to select it. The interface is the most intuitive thing I've ever used.",,,"- Eye tracking: Positive (feels like magic; very effective)
+- Interface/UX: Positive (most intuitive used)
+- Gaze-based selection: Positive (can select items just by looking)"
+43,Returned. The eye strain and headaches were immediate. I used it for 30 minutes and had to lie down. This product is not ready for human use. Do not buy.,,,"- Comfort/Health impact: Negative (immediate eye strain and headaches)
+- Extended-use usability: Negative (only 30 minutes before needing to lie down)
+- Product readiness/maturity: Negative (“not ready for human use”)"
+44,"As a developer, the Mac Virtual Display is my entire workflow now. The M5's 120Hz update makes text incredibly sharp. I have a giant, floating 4K monitor wherever I go. Worth every penny for my productivity.",,,"- Mac Virtual Display: Positive (became entire workflow)
+- 120Hz refresh rate: Positive (makes text incredibly sharp)
+- Virtual 4K monitor: Positive (giant, floating screen)
+- Portability: Positive (usable wherever I go)
+- Productivity: Positive (boosts work efficiency)
+- Value/Price: Positive (worth every penny)"
+45,"The 'infinite canvas' is a lie. You can only use one Mac screen. And the iPad apps are just... iPad apps. They're 2D windows that aren't spatially aware. It's not the future, it's an iPad on my face.",,,"- Infinite canvas: Negative (not truly unlimited as advertised)
+- Mac integration/screens: Negative (limited to one Mac display)
+- iPad app support: Negative (just 2D app windows)
+- Spatial awareness: Negative (apps aren’t spatially aware)
+- Overall vision/experience: Negative (feels like an iPad on the face, not the future)"
+46,"The passthrough camera is too low-resolution to read my phone screen or my watch. I have to lift the headset constantly, which defeats the purpose. Very frustrating.",,,"- Passthrough camera quality: Negative (too low-resolution)
+- Readability of real-world screens via passthrough: Negative (can’t read phone or watch)
+- Usability/convenience: Negative (must lift headset constantly)
+- Passthrough usefulness: Negative (defeats the purpose)"
+47,"I love the 'Environments' feature. When my house is a mess, I just transport myself to Yosemite to focus and get work done. It's an instant zen-like state.",,,"- Environments feature: Positive (user loves it; transports to Yosemite)
+- Focus/Productivity: Positive (helps focus and get work done)
+- Immersion/Calm: Positive (creates an instant zen-like state)
+- Distraction reduction: Positive (masks a messy house)"
+48,"Mac Virtual Display is amazing, but why can I only have *one* virtual screen? I'm a developer. I need three! It feels like an arbitrary software limitation. Fix this, Apple!",,,"- Mac Virtual Display: Positive (described as amazing)
+- Multi-screen support: Negative (limited to one virtual screen)
+- Software limitation: Negative (feels arbitrary)
+- Developer workflow suitability: Negative (one screen insufficient for developers)"
+49,"I travel a lot for work. This has completely transformed flying. I just put it on, dial in an Environment, and I'm in my own private theater. Noise-canceling is 10/10. A must-have for frequent flyers.",,,"- In-flight use: Positive (completely transformed flying)
+- Virtual Environments: Positive (easy to dial in an Environment)
+- Immersion/media experience: Positive (feels like a private theater)
+- Noise-canceling: Positive (rated 10/10)
+- Ease of use: Positive (just put it on and go)"
+50,"A 4-star product with 5-star potential. It needs more apps, more content, and more social integration. But the foundation is solid.",,,"- App availability: Negative (needs more apps)
+- Content library: Negative (needs more content)
+- Social integration: Negative (needs more social features)
+- Foundation/core experience: Positive (foundation is solid)
+- Overall potential: Positive (4-star now with 5-star potential)"
+51,"The app selection is a ghost town. It's been over a year (I have the M2), and we still don't have Netflix, Spotify, or a good YouTube app. It's basically a very expensive Safari browser.",,,"- App selection/ecosystem: Negative (described as a ghost town)
+- Availability of major apps: Negative (no Netflix, Spotify, or good YouTube app)
+- Functionality breadth: Negative (basically just a Safari browser)
+- Price/value: Negative (very expensive for limited use)
+- Progress over time: Negative (over a year with little improvement)"
+52,"It's just too heavy. I don't care what head strap you use (I tried three, including the M5's Dual Knit). It's physics. It's a 1.5-pound weight hanging off your face. It's a design flaw.",,,"- Weight: Negative (too heavy at ~1.5 lb)
+- Comfort: Negative (feels like a weight hanging off the face)
+- Head strap options: Negative (tried multiple straps; none helped)
+- Ergonomics/weight distribution: Negative (front-heavy, “hanging off your face”)
+- Design: Negative (explicitly called a design flaw)"
+53,"The display is amazing, but the field of view is a bit narrow. It feels like you're looking through a pair of ski goggles. I can't wait for the day this is just a pair of glasses.",,,"- Display: Positive (amazing)
+- Field of view: Negative (a bit narrow)
+- Form factor/Design: Negative (bulky, like ski goggles; not glasses-sized yet)"
+54,"Spatial videos are the future, but the camera on the Vision Pro itself isn't great. The videos I take with my iPhone 15 Pro look way better. Glad I can view them, but I won't be recording with the headset.",,,"- Spatial videos (overall): Positive (called ""the future"")
+- Vision Pro camera/recording quality: Negative (isn’t great; won’t record with headset)
+- Spatial video playback on Vision Pro: Positive (glad they can be viewed)
+- Compatibility with iPhone spatial videos: Positive (can view iPhone 15 Pro videos)"
+55,"The hand and eye tracking is 99% perfect. But that 1% of the time it misses your glance or pinch, it can be really frustrating.",,,"- Hand and eye tracking accuracy: Positive (works ~99% of the time)
+- Gesture recognition reliability: Negative (misses glance/pinch about 1% of the time, causing frustration)"
+56,"I returned it after 10 days. The weight is unbearable. I had a constant headache and neck pain. The M2's Solo Knit band was a terrible design. It's a $3,500 paperweight.",,,"- Weight: Negative (unbearably heavy)
+- Comfort: Negative (caused constant headache and neck pain)
+- Headband (Solo Knit band): Negative (terrible design/support)
+- Value/Price: Negative ($3,500 felt like a useless paperweight)"
+57,"I bought the M5, hoping it would fix the M2's flaws. It's faster, and the strap is better. But it's still too heavy, too expensive, and has no apps. It's a marginal improvement on a flawed concept.",,,"- Performance: Positive (faster)
+- Strap/Comfort: Positive (strap is better)
+- Weight: Negative (too heavy)
+- Price: Negative (too expensive)
+- App ecosystem: Negative (no apps)
+- Overall concept/value: Negative (marginal improvement on a flawed concept)"
+58,This is the most isolating piece of tech I've ever used. I felt completely cut off from the world and my family. The EyeSight feature is creepy and doesn't help at all. I hated the feeling.,,,"- Social presence/awareness: Negative (felt cut off from the world and family)
+- EyeSight: Negative (creepy and not helpful)
+- Overall experience: Negative (hated the feeling)"
+59,"Zero 'killer apps' a year and a half after launch. All the hype, all that money, for what? To watch 'Avatar' in 3D? I can do that at the theater. I sold my M2 and didn't look back.",,,"- App ecosystem: Negative (no killer apps even after 18 months)
+- Value/Price: Negative (all that money doesn’t feel justified)
+- Use cases: Negative (feels limited to watching 3D movies)
+- Post-launch progress: Negative (little meaningful improvement since launch)
+- Overall satisfaction: Negative (sold it and didn’t miss it)"
+60,"visionOS is a marvel of engineering. Moving windows around in 3D space, pinning them to my wall... it just works, flawlessly. The 'wow' factor hasn't worn off.",,,"- visionOS/software: Positive (marvel of engineering)
+- Spatial window management: Positive (moving/pinning windows in 3D works flawlessly)
+- Reliability/Stability: Positive (it just works, flawlessly)
+- Overall experience/wow factor: Positive (wow factor hasn’t worn off)"
+61,"I'm an amazing 4K TV you wear on your face. But it's also uncomfortable, lonely, and has no apps. I'm waiting for Gen 3.",,,"- Display quality: Positive (like an amazing 4K TV)
+- Media consumption: Positive (great big-screen viewing)
+- Comfort/Ergonomics: Negative (uncomfortable)
+- Social experience: Negative (lonely)
+- App ecosystem: Negative (no apps)
+- Overall maturity/readiness: Negative (waiting for Gen 3)"
+62,"It's a $3,500 toy for watching movies. A very, *very* good toy, but a toy nonetheless. The 'Pro' name feels unearned. I'm just not getting any real work done in this.",,,"- Price: Negative (costs $3,500)
+- Entertainment/movies: Positive (very good for watching movies)
+- Productivity/work: Negative (not getting real work done)
+- Branding (""Pro"" name): Negative (feels unearned)
+- Overall utility: Negative (more a toy than a tool)"
+63,"I can't believe how bad the typing is. The 'look and pinch' keyboard is a gimmick that's painfully slow. You are 100% required to buy a separate keyboard, which is ridiculous.",,,"- Typing experience: Negative (bad and slow)
+- Look-and-pinch virtual keyboard: Negative (gimmicky and painfully slow)
+- Need for separate keyboard: Negative (required extra purchase)"
+64,"The 'Persona' is pure nightmare fuel. I tried a FaceTime call, and my wife told me to take it off immediately. She said I looked like a reanimated corpse. So much for 'connecting' people.",,,"- Persona (digital avatar): Negative (creepy/uncanny)
+- FaceTime calls: Negative (spouse immediately asked to stop)
+- Avatar realism/appearance: Negative (looks like a “reanimated corpse”)
+- Social/connection value: Negative (fails to “connect” people)"
+65,"The passthrough is the best I've seen, but it still struggles in low light. It gets grainy, and there's some motion blur. It's not 1:1 with human vision, but it's close.",,,"- Passthrough quality: Positive (best I've seen)
+- Low-light performance: Negative (struggles in dim scenes)
+- Image noise/grain: Negative (gets grainy)
+- Motion blur: Negative (some blur)
+- Human-vision fidelity: Neutral (close but not 1:1)"
+66,"I got the M2 version. It's incredible, but it definitely gets warm after about an hour of use. Not uncomfortably hot, but you notice it.",,,"- Overall performance/experience: Positive (described as incredible)
+- Thermals/heat: Negative (gets noticeably warm after about an hour)
+- Comfort: Neutral (not uncomfortably hot)"
+67,"The new Dual Knit Band on the M5 is a huge improvement, but why isn't it standard? And $99 for it? Come on, Apple. The comfort should be perfect out of the box at this price.",,,"- Dual Knit Band quality: Positive (huge improvement)
+- Dual Knit Band inclusion: Negative (not standard)
+- Dual Knit Band price: Negative ($99 extra)
+- Comfort: Negative (should be perfect out of the box)
+- Value for price: Negative (expectations not met at this price)"
+68,"The battery pack is such a clumsy solution. The cable is always in the way, and I'm always worried I'll snag it. Why isn't the battery in the headset? (Oh, right, the weight...)",,,"- Battery pack: Negative (clumsy external solution)
+- Cable: Negative (in the way; risk of snagging)
+- Weight: Negative (battery inside would make headset too heavy)"
+69,"It's cool. But is it $3,500 cool? No. I use it maybe once a week to watch a movie. My Quest 3 is more fun for games and a fraction of the price.",,,"- Overall appeal: Positive (described as “cool”)
+- Price/Value: Negative ($3,500 not worth it; cheaper alternatives exist)
+- Usage frequency: Negative (used only about once a week)
+- Media watching (movies): Neutral (used for movies but not praised)
+- Gaming: Negative (less fun than Quest 3)"
+70,"The display is amazing, but the field of view is like looking through binoculars. It's not 'immersive' when you can see the black borders all the time.",,,"- Display: Positive (amazing)
+- Field of view: Negative (like looking through binoculars)
+- Immersion: Negative (black borders ruin immersion)
+- Edge/border visibility: Negative (black borders visible all the time)"
+71,"There is nothing—NOTHING—to do on this thing. I watched the two immersive videos, browsed Safari on a big screen, and then... that's it. The app store is a barren wasteland. What a waste of money.",,,"- App store: Negative (barren wasteland)
+- Content library: Negative (only two immersive videos; nothing to do)
+- Web browsing (Safari on big screen): Neutral (works, but unremarkable)
+- Price/Value: Negative (waste of money)"
+72,"The motion blur on the passthrough is nauseating. I tried walking around, and the world warped and smeared. It made me feel sick.",,,"- Passthrough: Negative (heavy motion blur)
+- Motion handling while moving: Negative (world warps and smears when walking)
+- Comfort/health: Negative (nauseating; made the user feel sick)"
+73,"I really enjoy using it, but it feels isolating. My family says it's weird to talk to me when I'm wearing it. The EyeSight display doesn't really help.",,,"- Overall experience: Positive (enjoyable to use)
+- Social isolation: Negative (feels isolating)
+- Communication with others: Negative (people find it weird to talk to the wearer)
+- EyeSight display: Negative (doesn’t help alleviate the social disconnect)"
+74,"Everything is an expensive add-on. The prescription lenses were $150. The travel case is $200. The M5's new band is $99. The product is $3,500. This is absurd.",,,"- Overall pricing/value: Negative (absurdly expensive)
+- Base product price: Negative ($3,500)
+- Prescription lenses: Negative ($150 add-on)
+- Travel case: Negative ($200 add-on)
+- Band/headband: Negative ($99 add-on)
+- Accessories/add-ons: Negative (everything costs extra)"
+75,"I held off until the M5 version, and I'm so glad I did. The comfort is there, the power is there. This is the first-gen product that truly feels 'finished.'",,,"- Comfort: Positive (comfort is there)
+- Performance/Power: Positive (power is there)
+- Maturity/Polish: Positive (feels finished for a first-gen)
+- M5 version: Positive (glad they waited for this version)"
+76,"The Personas are getting so much better. My family said my spatial Persona on FaceTime felt natural and present. It's not perfect, but it's a huge step up.",,,"- Personas: Positive (getting much better; huge step up)
+- FaceTime with Spatial Persona: Positive (felt natural and present to family)
+- Polish/Accuracy: Negative (still not perfect)"
+77,"This is the best portable display for my MacBook, period. The M5 version's virtual display is even sharper and smoother. I've sold my external monitor.",,,"- Overall experience: Positive (best portable display for my MacBook)
+- Virtual display quality: Positive (even sharper)
+- Smoothness/latency: Positive (smoother)
+- MacBook integration: Positive (works great as a MacBook display)
+- Monitor replacement capability: Positive (sold external monitor)
+- M5 version improvements: Positive (noticeable upgrade in sharpness and smoothness)"
+78,"I love the glare. If you're watching a dark movie with bright text, the lens flare is very noticeable. It's the only mark on an otherwise perfect display.",,,"- Display: Positive (described as “otherwise perfect”)
+- Glare/Lens flare: Negative (very noticeable in dark scenes with bright text)"
+79,"The fit is so finicky. If you don't have it *just right*, it's uncomfortable. I spent the first week just trying to get the Light Seal to feel right. It's a hassle.",,,"- Fit: Negative (finicky to get right)
+- Comfort: Negative (uncomfortable unless perfectly adjusted)
+- Light Seal: Negative (took a week to feel right)
+- Setup/Adjustment: Negative (hassle to dial in)"
